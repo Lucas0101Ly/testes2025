@@ -97,4 +97,67 @@ footer {
     #btn-menu {
         display: inline-block;
     }
+
+}
+
+/* PORTFÓLIO */
+#portfolio {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.grade-portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.bloco {
+    background: #e8f1ff;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #a9c8ff;
+    transition: 0.3s;
+}
+
+.bloco:hover {
+    background: #d6e6ff;
+    transform: scale(1.02);
+}
+
+/* MODAL */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.modal-content {
+    background: white;
+    max-width: 600px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.fechar {
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+    .grade-portfolio {
+        grid-template-columns: 1fr; /* no celular apenas 1 por linha */
+    }
 }
