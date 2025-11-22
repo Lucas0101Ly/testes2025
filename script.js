@@ -4,12 +4,7 @@ document.getElementById("btn-menu").addEventListener("click", function () {
     menu.style.display = menu.style.display === "flex" ? "none" : "flex";
 });
 
-// SLIDESHOW
-let imagens = [
-    "img/foto1.jpg",
-    "img/foto2.jpg",
-    "img/foto3.jpg"
-];
+
 
 let index = 0;
 

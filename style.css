@@ -63,17 +63,6 @@ section {
     margin-bottom: 20px;
 }
 
-/* GALERIA */
-.slideshow {
-    width: 100%;
-    max-width: 500px;
-    margin: auto;
-}
-
-.slideshow img {
-    width: 100%;
-    border-radius: 8px;
-}
 
 /* FOOTER */
 footer {
